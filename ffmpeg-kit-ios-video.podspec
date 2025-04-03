@@ -8,8 +8,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "12.1"
   s.requires_arc = true
   s.libraries    = ["z", "bz2", "c++", "iconv"]
-  s.source = { :git => "https://github.com/RebootMotion/ffmpeg-kit-ios-video.git }
-
+  s.source = { :git => "https://github.com/RebootMotion/ffmpeg-kit-ios-video.git" }
 
   s.ios.frameworks = ["AudioToolbox", "AVFoundation", "CoreMedia", "VideoToolbox"]
   s.ios.vendored_frameworks = [
